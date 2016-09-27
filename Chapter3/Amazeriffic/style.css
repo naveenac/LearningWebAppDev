@@ -1,5 +1,5 @@
 body {
-  background: #f9e933;
+  background: #87CEFA;
 }
 
 header, main, footer {
@@ -7,39 +7,25 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
-  max-width: 855px;
+  max-width: 500px;
   margin: auto;
 }
 
 header {
-  background: white;
+  background: #DB7093;
   overflow: auto;
 }
 
-header h1 {
-  float: left;
-  width: 570px;
+p {
+  font-weight: bold;
+  color:black;
 }
 
-header nav {
-  float: right;
-  width: 285px;
+form {
+  font-weight: bold;
+  color:blueviolet;
 }
 
-main {
-  background: white;
-  overflow: auto;
-}
-
-main .left {
-  float: left;
-  width: 570px;
-}
-
-main .right {
-  float: right;
-  width: 285px;
-}
 
 footer .left {
   float: left;
@@ -47,6 +33,6 @@ footer .left {
 }
 
 footer .sitemap {
-  float: right;
+  float: middle;
   width: 285px;
 }
