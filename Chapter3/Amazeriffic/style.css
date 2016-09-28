@@ -1,5 +1,5 @@
 body {
-  background: #87CEFA;
+  background: #f9e933;
 }
 
 header, main, footer {
@@ -7,25 +7,43 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
-  max-width: 500px;
+  max-width: 855px;
   margin: auto;
 }
 
 header {
-  background: #DB7093;
+  background: white;
   overflow: auto;
 }
 
-p {
-  font-weight: bold;
-  color:black;
+header h1 {
+  float: left;
+  width: 570px;
 }
 
-form {
-  font-weight: bold;
-  color:blueviolet;
+header nav {
+  float: right;
+  width: 285px;
 }
 
+main {
+  background: white;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+p.italic {
+    font-style: italic;
+}
 
 footer .left {
   float: left;
@@ -33,6 +51,6 @@ footer .left {
 }
 
 footer .sitemap {
-  float: left;
+  float: right;
   width: 285px;
 }
